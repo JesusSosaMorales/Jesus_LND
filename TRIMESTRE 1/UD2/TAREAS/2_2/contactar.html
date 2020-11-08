@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contactar</title>
+  </head>
+  <body>
+    <form class="" action="mailto:micuenta@miservidor" enctype="text/plain" method="post">
+      Tu Nombre:
+      <input type="text" name="Nombre" value="" size="30" maxlength="30" required><br><br>
+      Tu Sexo:<br>
+      <input type="radio" name="Mujer" value="Mujer">
+      Mujer <br>
+      <input type="radio" name="Hombre" value="Hombre">
+      Hombre <br><br>
+      Estas estudiando:
+      <select class="" name="Estudios"required>
+        <option value="valor1">Primero de Administración de Sistemas</option>
+        <option value="valor2">Segundo de Administración de Sistemas</option>
+        <option value="valor3" selected>Primero de Desarrollo Web</option>
+        <option value="valor4">Segundo de Desarrollo Web</option>
+      </select>
+      <br><br>El texto de tu mensaje:<br>
+        <textarea name="mensaje" rows="8" cols="80" required></textarea><br><br>
+        <input type="submit" name="Enviar" value="Contacta Conmigo">
+    </form>
+  </body>
+</html>
