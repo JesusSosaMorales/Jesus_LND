@@ -1,0 +1,48 @@
+<!DOCTYPE html -//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" dir="ltr" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h3>Jesús Manuel Sosa Morales</h3>
+     <form  action="procesar.php" method="post">
+       <fieldset>
+         <legend>Datos del propietario</legend>
+           <p>
+             <label for="Nombre">Nombre:</label>
+             <input type="text" id="Nombre" size="20" maxlength="20" ><br>
+             <label id=""="Sexo">Sexo:</label>
+             <input type="radio" name="Sexo" value="Hombre" checked>
+             <label for="Hombre">Hombre</label>
+             <input type="radio" name="Sexo" value="Mujer">
+             <label for="Mujer">Mujer</label>
+           </p>
+       </fieldset>
+       <fieldset>
+          <legend>Datos del vehículo</legend>
+            <p>
+              <label for="Modelo">Marca/modelo:</label>
+              <input type="text" id="Modelo"><br>
+              <label for="Matrícula">Matrícula</label>
+              <input type="text" id="Matrícula"><br>
+              <label for="Características">Características:</label>
+              <select id="Características" multiple>
+                <option value="Utilitario" selected>Utilitario</option>
+                <option value="Todo Terreno">Todo Terreno</option>
+                <option value="Alta gama" selected>Alta gama</option>
+              </select><br>
+              <label for="Otros datos">Otros datos:</label><br>
+              <input type="checkbox" id="Otros datos" value="Servofrenos" checked>
+              <label for="Servofrenos">Servofrenos</label>
+              <input type="checkbox" id="Otros datos" value="Elevalunas" checked>
+              <label for="Elevalunas">Elevalunas</label>
+              <input type="checkbox" id="Otros datos" value="Remolque" >
+              <label for="Remolque">Remolque</label>
+            </p>
+       </fieldset>
+       <input type="submit" id="enviar" value="enviar">
+     </form>
+
+  </body>
+</html>
