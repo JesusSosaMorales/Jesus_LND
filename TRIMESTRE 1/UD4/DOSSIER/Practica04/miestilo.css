@@ -1,0 +1,19 @@
+legend{color: violet}
+label{color: blue }
+#Descuento{
+  border: green 5px dashed
+}
+#Precio{
+  background-color:red;
+  font-size:16;
+  font-family:-Arial;
+  font-weight: bold
+}
+#Descripción{
+  color:blue;
+  background-color:LightGray
+}
+#Nombre{
+  color:blue;
+  background-color:LightGray
+}

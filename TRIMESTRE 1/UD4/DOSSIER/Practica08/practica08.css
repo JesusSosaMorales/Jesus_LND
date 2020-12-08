@@ -1,0 +1,21 @@
+table{
+  border: 1px solid violet;
+}
+thead{
+  background-color: violet;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+}
+tbody{
+  background: white;
+  color: black;
+  font-size: 12px;
+  text-align: justify;
+}
+tfoot{
+  background-color: violet;
+  color: white;
+  font-size: 10px;
+  text-align: right;
+}

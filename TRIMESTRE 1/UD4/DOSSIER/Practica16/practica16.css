@@ -1,0 +1,23 @@
+.primero{
+  margin: 0px 100px;
+}
+.segundo{
+  border: 3px green solid;
+  padding: 0px;
+}
+.tercero{
+  border: 2px dashed;
+  border-top: yellow dashed;
+  border-bottom: yellow dashed;
+  border-left: blue dashed;
+  border-right: blue dashed;
+}
+.cuarto{
+  border-bottom: 5px black groove;
+
+}
+.quinto{
+  width: 200px;
+  border:2px fuchsia solid;
+  padding: 50px;
+}

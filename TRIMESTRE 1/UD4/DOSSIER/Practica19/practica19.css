@@ -1,0 +1,27 @@
+.div_uno{
+  width: 100%;
+  height: 100%;
+  background-image: url(textura.jpg);
+  background-repeat: repeat-x;
+}
+.div_dos{
+  width: 150px;
+  height: 150px;
+  border: 1px black solid;
+  background-image: url(gchrome.jpg);
+  background-position: left top;
+}
+.div_tres{
+  width: 150px;
+  height: 150px;
+  border: 1px black solid;
+  background-image: url(gchrome.jpg);
+  background-position: center;
+}
+.div_cuatro{
+  width: 150px;
+  height: 150px;
+  border: 1px black solid;
+  background-image: url(gchrome.jpg);
+  background-position: right bottom;
+}

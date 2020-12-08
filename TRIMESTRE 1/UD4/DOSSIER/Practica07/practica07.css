@@ -1,0 +1,21 @@
+table{
+  border: 1px solid blue;
+}
+thead{
+  background-color: blue;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+}
+tbody{
+  background: #E5E7E9;
+  color: blue;
+  font-size: 12px;
+  text-align: justify;
+}
+tfoot{
+  background-color: blue;
+  color: white;
+  font-size: 10px;
+  text-align: right;
+}

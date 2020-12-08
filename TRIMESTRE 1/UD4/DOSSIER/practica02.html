@@ -1,0 +1,55 @@
+<!DOCTYPE html -//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" dir="ltr" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="Jesus Manuel Sosa Morales">
+    <meta name="description" content="Practica 1">
+    <style media="screen">
+      legend{color: violet}
+
+
+    </style>
+    <title>Practica2</title>
+  </head>
+  <body>
+    <h3>Información sobre el producto</h3>
+     <form  action="index.html" method="post">
+       <fieldset>
+         <legend>Datos básicos:</legend>
+           <p>
+             <label for="Nombre" style="color:green">Nombre:</label>
+             <input type="text" id="Nombre" size="20" maxlength="20" style="color:blue;background-color:LightGray" ><br><br>
+             <label for="Descripción" style="color:green">Descripción:</label><br>
+             <textarea id="Descripción" rows="8" cols="80" style="color:blue;background-color:LightGray" ></textarea><br><br>
+             <label for="Foto">Foto:</label>
+             <input type="text" id="Foto" size="10" maxlength="10" >
+             <input type="button" id="Elegir..." value="Elegir..."><br><br>
+             <input type="checkbox" id="visitas" value="Añadir contador de visitas">
+             <label for="visitas">Añadir contador de visitas</label>
+           </p>
+       </fieldset>
+       <fieldset>
+          <legend>Datos economicos:</legend>
+            <p>
+              <label for="Precio"  >Precio:</label>
+              <input type="text" id="Precio" size="4" style="background-color:red;font-size:16;font-family:-Arial;font-weight: bold">
+              <label for="Precio">€</label>&nbsp;&nbsp;&nbsp;&nbsp;
+              <label for="Impuestos">Impuestos</label>
+              <select class="" id="Impuestos" >
+                <option value="4">4</option>
+                <option value="7">7</option>
+                <option value="16">16</option>
+                <option value="25">25</option>
+              </select><br><br>
+              <label for="Promoción:">Promoción:</label><br>
+              <input type="radio" name="Promoción" value="Ninguno">
+              <label for="Ninguno">Ninguno</label><br>
+              <input type="radio" name="Promoción" value="Transporte gratuito">
+              <label for="Transporte_gratuito">Transporte gratuito</label><br>
+              <input type="radio" name="Promoción" value="Descuento 5%">
+              <label for="Descuento_5%" style="border: green 5px dashed">Descuento 5%</label><br>
+            </p>
+       </fieldset>
+     </form>
+  </body>
+</html>
