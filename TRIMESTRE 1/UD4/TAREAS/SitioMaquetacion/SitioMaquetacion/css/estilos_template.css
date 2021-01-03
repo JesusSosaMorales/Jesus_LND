@@ -1,0 +1,155 @@
+*{
+  color: #999999;
+  font-size: 12px;
+  font: Helvetica;
+  padding: 0px;
+  margin: 0px;
+
+}
+body{
+  background-image: url(../img/fondo.png);
+  background-size:100%;
+}
+header{
+  display:block;
+  width: 80%;
+  margin: auto;
+  background-color: white;
+  border: #C7C7C7 1px;
+  box-sizing: border-box;
+  border-left-style:solid;
+  border-right-style: solid;
+  font-size: 30px;
+  color: #5599BB;
+  letter-spacing: -1px;
+  text-align: center;
+
+}
+footer{
+  display:block;
+  width: 80%;
+  margin: auto;
+  background-color: white;
+  border: #C7C7C7 1px;
+   box-sizing: border-box;
+   border-left-style:solid;
+   border-right-style: solid;
+}
+nav{
+  display:block;
+  width: 80%;
+  margin: auto;
+  background-color: white;
+  border: #C7C7C7 1px;
+   box-sizing: border-box;
+  border-left-style:solid;
+  border-right-style: solid;
+}
+section{
+  display:block;
+  width: 80%;
+  margin: auto;
+  background-color: white;
+  border: #C7C7C7 1px ;
+   box-sizing: border-box;
+   border-left-style:solid;
+   border-right-style: solid;
+}
+article{
+  display:block;
+}
+figure{
+  display:block;
+}
+figurecaption{
+  display:block;
+}
+header img{
+  width: 100%;
+}
+nav ul{
+  background-color: #5599BB;
+  list-style: none;
+}
+nav li{
+  display: inline-block;
+  padding: 10px;
+
+}
+nav li a{
+  color: white;
+  font-size: 14px;
+  text-decoration: none;
+}
+li :hover{
+  background-color: #084B8A;
+}
+#principal{
+  display:inline-block;
+  vertical-align:top;
+  width: 70%;
+}
+aside{
+  display:inline-block;
+  vertical-align:top;
+  width: 29%;
+}
+#principal article{
+  margin: 2%;
+  background-color: #f2f7fc;
+  border:#5599BB 1px solid;
+  border-radius:5px;
+  box-shadow:5px 5px 3px #C7C7C7;
+}
+aside article{
+  margin: 2%;
+  background-color: #f2f7fc;
+  border:#5599BB 1px solid;
+  border-radius:5px;
+  box-shadow:5px 5px 3px #C7C7C7;
+}
+#principal header{
+  width: 100%;
+  padding: 5px;
+  font-size: 18px;
+  color: #5599BB;
+  background: none;
+  text-align: center;
+}
+#principal footer{
+  width: 100%;
+  padding: 3px;
+  color: white;
+  font-size: 10px;
+  text-align: right;
+  border: solid 1px #5599BB;
+  background-color: #5599BB;
+  border-bottom-right-radius;
+  border-bottom-left-radius
+}
+aside header{
+  width: 100%;
+  padding: 5px;
+  font-size: 14px;
+  color: #999999;
+  background: none;
+  text-align: center;
+}
+aside footer{
+  width: 100%;
+  padding: 3px;
+  color: white;
+  font-size: 10px;
+  text-align: right;
+  border: solid 1px  #999999;
+  background-color:  #999999;
+  border-bottom-right-radius;
+  border-bottom-left-radius
+}
+footer{
+  color: white;
+  background-color: black;
+  font-size: 12px;
+  padding: 5px;
+  text-align: right;
+}
