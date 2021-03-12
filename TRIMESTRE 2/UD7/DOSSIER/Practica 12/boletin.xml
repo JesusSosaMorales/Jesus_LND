@@ -1,0 +1,16 @@
+
+
+<boletin xsi:schemaLocation="http://www.misitio.com boletin.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.misitio.com">El alumno Juan
+	
+<nombre> Juan</nombre>
+	
+<apellido>González Delgado</apellido>obtuvo un 
+	
+<nota>8</nota>en 
+	
+<materia>Lenguajes de marcas</materia>
+	
+
+
+
+</boletin>

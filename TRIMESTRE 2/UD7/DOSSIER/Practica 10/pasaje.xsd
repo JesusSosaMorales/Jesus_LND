@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="pasaje">
+<xs:complexType>
+	<xs:attribute name="asiento" type="xs:string" use="required"/>
+	<xs:attribute name="ventanilla" type="xs:boolean" default="true"/>
+	<xs:attribute name="precio"  type="xs:double" use="optional"/>
+	<xs:attribute name="moneda" type="xs:string" default="euros"/>
+	
+</xs:complexType>
+</xs:element>
+</xs:schema>

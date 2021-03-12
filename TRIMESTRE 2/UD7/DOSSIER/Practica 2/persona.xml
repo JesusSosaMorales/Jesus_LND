@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<persona xmlns="http://www.misitio.com" xmlns:xsi="http://www.w3.org/TR/xmlschema-1/" xsi:schemaLocation="persona.xsd">
+    <nombre>Juan</nombre> 
+    <apellido>Morales</apellido> 
+    <edad>18</edad> 
+    <fecha>09/03/2021</fecha>
+</persona>

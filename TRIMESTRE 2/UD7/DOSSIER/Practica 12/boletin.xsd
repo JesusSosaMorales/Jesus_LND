@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<xs:element name="boletin" type="tipoboletin">
+
+	<xs:complexType>
+
+		<xs:attribute name="evaluacion">
+
+			<xs:simpleType>
+
+				<xs:restriction base="xs:integer">
+
+					<xs:enumeration value="1"/>
+
+					<xs:enumeration value="2"/>
+
+					<xs:enumeration value="3"/>
+
+				</xs:restriction>
+
+			</xs:simpleType>
+
+		</xs:attribute>
+
+	</xs:complexType>
+
+</xs:element>
+
+<xs:complexType name="tipoboletin" mixed="true">
+
+	<xs:sequence>
+
+		<xs:element name="nombre" type="xs:string"/>
+
+		<xs:element name="apellidos" type="xs:string"/>
+
+		<xs:element name="nota" type="xs:positiveInteger"/>
+
+		<xs:element name="materia" type="xs:string"/>
+
+	</xs:sequence>
+
+</xs:complexType>
+</xs:schema>

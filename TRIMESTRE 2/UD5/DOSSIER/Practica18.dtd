@@ -1,0 +1,9 @@
+
+<!ELEMENT agenda (persona)+>
+<!ELEMENT persona (nombre,apellido,email, oficina, telefono, movil ) >
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellido (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT oficina (#PCDATA)>
+<!ELEMENT telefono (#PCDATA)>
+<!ELEMENT movil (#PCDATA)>

@@ -1,0 +1,7 @@
+1.Tenemos un elemento libro el cual esta definido por un autor y una editorial.
+2. El auto contiene texto
+3. Un elemento pelicula que esta definido o por un actor,atriz o diretor ,  y se puede repetir (todo esta en parentesis) 1 o mas veces
+4. Pelicula que esta definido por la eleccion de actor o actriz y puede aparecer 0  uno o varios de estos, un director y maquillaje que puede aparecer o no.
+5. Pelicula que esta definido o por texto o por actor y puede repetirse 0,1 o mas veces
+6. Pelicula definido por un titulo,genero y ( actor o actriz o narrador9 , que ademas pueden aparecer 0 1 o mas veces
+7. Ficha definido por un nombre o mas, apellido o mas, una ninguna o muchas direcciones, una foto que puede aparecer o no, y (telefono fijo o movil y se pueden repetir)

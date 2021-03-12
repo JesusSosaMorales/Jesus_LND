@@ -1,0 +1,2 @@
+Utiliza la version 2 y podemos observar que tiene etiquetas comunes a la de la practica 1 y tiene otras que no aparecian pero por lo general es similar
+solo que en este si es verdad que antes de entrar al codigo fuente del boton de feed, no se mostraba una lista como en el anterior caso

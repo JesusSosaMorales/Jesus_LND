@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<xs:element name="clinicaveterinaria">
+
+	<xs:complexType>
+
+		<xs:sequence>
+
+			<xs:element name="cliente" type="tipocliente"></xs:element>
+
+		</xs:sequence>
+
+	</xs:complexType>
+
+</xs:element>
+
+
+<xs:complexType name="tipocliente">
+
+	<xs:group ref="grupopaciente"/>
+
+</xs:complexType>
+
+
+
+<xs:group name="grupopaciente">
+
+	<xs:sequence>
+
+		<xs:element name="nombre" type="xs:string"/>
+
+		<xs:element name="apellido" type="xs:string" minOccurs="0"/>
+
+		<xs:element name="animal" minOccurs="1" maxOccurs= "unbounded">
+
+			<xs:complexType>
+
+				<xs:choice>
+
+					<xs:element name="perro" type="tipoanimal"/>
+
+					<xs:element name="gato" type="tipoanimal"/>
+
+					<xs:element name="reptil" type="tipoanimal"/>
+
+				</xs:choice>
+
+			</xs:complexType>
+
+		</xs:element>
+
+		
+
+	</xs:sequence>
+
+</xs:group>
+
+<xs:complexType name="tipoanimal">
+
+	<xs:sequence>
+
+		<xs:element name="nombre" type="xs:string">
+
+			<xs:complexType>
+
+				<xs:attributeGroup ref="grupoanimal"/>
+
+			</xs:complexType>
+
+		</xs:element>
+
+		<xs:element name="edad" type="xs:integer">
+
+		<xs:simpleType>
+
+			<xs:restriction base="xs:integer">
+
+				<xs:minInclusive value="0"/>
+
+				<xs:minInclusive value="15"/>
+
+			</xs:restriction>
+
+		</xs:simpleType>
+
+		<xs:complexType>
+
+				<xs:attributeGroup ref="grupoanimal"/>
+
+			</xs:complexType>
+
+		</xs:element>
+
+		<xs:element name="raza" type="xs:string">
+
+		<xs:complexType>
+
+				<xs:attributeGroup ref="grupoanimal"/>
+
+			</xs:complexType>
+
+		</xs:element>
+
+	</xs:sequence>
+
+</xs:complexType>
+
+
+<xs:attributeGroup name="grupoanimal">
+
+	<xs:attribute name="sexo" default="M" >
+
+		<xs:simpleType>
+
+			<xs:restriction base="xs:string">
+
+				<xs:enumeration value="M"/>
+
+				<xs:enumeration value="F"/>
+
+			</xs:restriction>
+
+		</xs:simpleType>
+		
+
+	</xs:attribute>
+
+</xs:attributeGroup>
+</xs:schema>

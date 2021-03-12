@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<coche xsi:schemaLocation="http://www.misitio.com coche.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.misitio.com">
+
+	<compra>
+
+		<marca>
+Toyota</marca>
+		<modelo>LandCruiser</modelo>
+		<puertas>3</puertas>
+		<color>gris</color>
+		<numcoche>100</numcoche>
+		<nombrebarco>SeaAdventurer</nombrebarco>
+		<paisproductor>Japon</paisproductor>
+		<paiscomprador>España</paiscomprador>
+
+	</compra>
+
+</coche>

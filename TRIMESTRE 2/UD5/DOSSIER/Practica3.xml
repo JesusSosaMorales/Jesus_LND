@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- New document created with EditiX at Wed Mar 10 10:28:29 GMT 2021 -->
+
+<libreria>
+	<libros categoria="Novela">
+		<autor>Miguel de Cervantes</autor>
+		<titulo>Don Quijote de La Mancha</titulo>
+		<editorial>Algar</editorial>
+	</libros>
+	<libros categoria="Cocina">
+		<autor>Karlos Arguiñano</autor>
+		<titulo>Cocina Dia a Dia</titulo>
+		<editorial>Planeta</editorial>
+	</libros>
+	<libros categoria="programacion">
+		<autor>Miguel Angel Acera</autor>
+		<titulo>C/C++</titulo>
+		<editorial>Anaya</editorial>
+	</libros>
+	<libros categoria="programacion">
+		<autor>Alexander Cane</autor>
+		<titulo>Programa en Phytom</titulo>
+		<editorial>Amazon</editorial>
+	</libros>
+</libreria>

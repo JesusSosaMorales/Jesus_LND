@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<equipos>
+	
+	<equipo>
+		
+		<nombre>Manchester City</nombre>
+		<ciudad>Manchester</ciudad>
+		<entrenador>Pep Guardiola</entrenador>
+		<jugador>
+			<nombre>Kun Aguero</nombre>
+			<nacionalidad>Argentina</nacionalidad>
+		</jugador>
+		<jugador>
+			<nombre>Kevin De Bruyne</nombre>
+			<nacionalidad>Belga</nacionalidad>
+		</jugador>
+		
+	</equipo>
+	
+	<equipo>
+		
+		<nombre>Barcelona</nombre>
+		<ciudad>Barcelona</ciudad>
+		<entrenador>Kooman</entrenador>
+		<jugador>
+			<nombre>Lionel Messi</nombre>
+			<nacionalidad>Argentina</nacionalidad>
+		</jugador>
+		<jugador>
+			<nombre>Marc Ter Stegen</nombre>
+			<nacionalidad>Alemana</nacionalidad>
+		</jugador>
+		
+	</equipo>
+	
+	<equipo>
+		
+		<nombre>Real Madrid</nombre>
+		<ciudad>Madrid</ciudad>
+		<entrenador>Zidane</entrenador>
+		<jugador>
+			<nombre>Sergio Ramos</nombre>
+			<nacionalidad>España</nacionalidad>
+		</jugador>
+		<jugador>
+			<nombre>Casemiro</nombre>
+			<nacionalidad>Brsail</nacionalidad>
+		</jugador>
+		
+	</equipo>
+	
+	<equipo>
+		
+		<nombre>Bayern Munich</nombre>
+		<ciudad>Munich</ciudad>
+		<entrenador>Hans-Dieter Flick</entrenador>
+		<jugador>
+			<nombre>Neur</nombre>
+			<nacionalidad>Aleman</nacionalidad>
+		</jugador>
+		<jugador>
+			<nombre>Lewandoski</nombre>
+			<nacionalidad>Polonia</nacionalidad>
+		</jugador>
+		
+	</equipo>
+
+
+
+
+</equipos>
+
+

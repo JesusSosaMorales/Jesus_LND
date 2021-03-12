@@ -1,0 +1,4 @@
+Documento 1: Al principio creia que no iba a ser valido porque la etiqueta DNI esta vacia, pero al comprobarlo en el editix no te da error.
+Documento 2: Documento valido
+Documento 3: No es valido hay 2 elementos nombre y falta el dni
+Documento 4: Documento valido 

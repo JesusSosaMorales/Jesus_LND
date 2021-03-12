@@ -1,0 +1,5 @@
+Documento 1:No valido solo puede aparecer una de los dos elementos ( | es o)
+Documento 2:No valido solo puede aparecer una de los dos elementos ( | es o)
+Documento 3:Documento valido
+Documento 4:No valido solo puede aparecer una de los dos elementos ( | es o)
+

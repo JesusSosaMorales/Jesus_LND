@@ -1,0 +1,5 @@
+Se define los atributos del curo
+director que es requerido y es texto no puede estar vacio
+horario que es opcional y puede ser mañana tarde o noche
+matricula puede ser ordinaria o extraordinaria y por defecto viene ordinaria
+tasa esta fijada a 53€

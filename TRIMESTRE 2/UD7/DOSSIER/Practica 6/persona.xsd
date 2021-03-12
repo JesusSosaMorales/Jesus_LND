@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.misitio.com" xmlns="http://www.misitio.com" elementFormDefault="qualified">
+
+    <xs:element name="persona">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="nombre" type="xs:string"/>
+                <xs:element name="apellido" type="xs:string"/>
+                <xs:element name="edad" >
+                	<xs:simpleType>
+                		<xs:restriction base="xs:integer">
+                			<xs:minInclusive value="18"/>
+                			<xs:maxInclusive value="50"/>
+                		</xs:restriction>
+                	</xs:simpleType>
+                </xs:element>
+                <xs:element name="estadocivil">
+	                <xs:simpleType>
+	                	<xs:restriction base="xs:string">
+                			<xs:enumeration value="Casado"/>
+                			<xs:enumeration value="Soltero"/>
+                			<xs:enumeration value="Separado"/>
+                			<xs:enumeration value="Divorciado"/>
+                			<xs:enumeration value="Viudo"/>
+                		</xs:restriction>
+	                </xs:simpleType>
+                </xs:element>
+                <xs:element name="fecha" type="xs:date"/>
+                <xs:element name="DNI">
+                	<xs:simpleType>
+                		<xs:restriction base="xs:string">
+                			<xs:pattern value="[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]-[A-Z]"></xs:pattern>
+                		</xs:restriction>
+                	</xs:simpleType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<parrafo xsi:schemaLocation=" parrafo.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.misitio.com">
+	<texto idioma="español" codificacion=" UTF-8">hola sdadsa</texto>
+</parrafo>
+
+<!--parrafo  xmlns="http://www.misitio.com" xmlns:xsi="http://www.w3.org/TR/xmlschema-1/" xsi:schemaLocation="parrafo.xsd" 
+Pongo esta cabecera (la que esta comentada) y me valida todo aunque ponga fallos aposta, me lo da como correcto, creo que el xsd esta bien definido pero el xml me da error de que el elemento parrafo no ha sido declarado y me esta pasando en casi todos 
+los ejercicios y en teoria deberia funcionar porque esta definido en el .xsd y lo estoy haciendo siguiendo el temario y me da error por la cabecera creo
+-->
+
+
+
+	
+
+
+
+

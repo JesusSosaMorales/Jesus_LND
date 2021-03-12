@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<persona xsi:schemaLocation="http://www.misitio.com persona.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.misitio.com">
+
+    <nombre>Juan</nombre> 
+    <apellido>Mooooooooo</apellido> 
+    <edad>18</edad> 
+     <estadocivil>Casado</estadocivil>
+    <fecha>2021-12-20</fecha>
+    <DNI>43382313N</DNI>
+
+  
+</persona>
+

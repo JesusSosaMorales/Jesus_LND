@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<!DOCTYPE libreria SYSTEM "practica4.dtd">
+
+
+<libreria>
+	<libros>
+		<autor>Miguel de Cervantes</autor>
+		<titulo>Don Quijote de La Mancha</titulo>
+		<editorial/>
+	</libros>
+	<libros>
+		<autor>Karlos Arguiñano</autor>
+		<titulo>Cocina Dia a Dia</titulo>
+		<editorial>Planeta</editorial>
+	</libros>
+	<libros>
+		<autor>Miguel Angel Acera</autor>
+		<titulo>C/C++</titulo>
+		<editorial>Anaya</editorial>
+	</libros>
+	<libros>
+		<autor>Alexander Cane</autor>
+		<titulo>Programa en Phytom</titulo>
+		<editorial>Amazon</editorial>
+	</libros>
+</libreria>

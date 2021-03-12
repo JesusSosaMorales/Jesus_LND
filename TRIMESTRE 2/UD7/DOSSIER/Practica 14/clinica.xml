@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- New document created with EditiX at Fri Mar 12 10:55:01 GMT 2021 -->
+<clinica xsi:noNamespaceSchemaLocation="clinica.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	  <paciente>
+		    <nombre>Pepe</nombre>
+		    <apellido>Garcia</apellido>
+		    <visitante>
+			      <nombre>Juan</nombre>
+			      <apellido>Lopezx</apellido>
+		    </visitante>
+		     <visitante>
+			      <nombre>Maria</nombre>
+			      <apellido>Luís</apellido>
+		    </visitante>
+	  </paciente>
+	  
+	  <paciente>
+		    <nombre>Rosa</nombre>
+		    <apellido>Díaz</apellido>
+	    	    <visitante>
+			      <nombre>Luisa</nombre>
+			      <apellido>Morales</apellido>
+		    </visitante>
+		    <visitante>
+			      <nombre>Javier</nombre>
+			      <apellido>Díaz</apellido>
+		    </visitante>
+	  </paciente>
+</clinica>

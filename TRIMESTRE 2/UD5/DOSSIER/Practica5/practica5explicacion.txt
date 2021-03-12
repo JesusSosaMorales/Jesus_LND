@@ -1,0 +1,4 @@
+El error que se da es que en nuestro dtd le estamos especificando que solo puede aparecer un autor para intidar mas de uno usaremos unos operadores.
++ (1 o mas)
+? (0 o 1)
+* (0, 1 o mas)

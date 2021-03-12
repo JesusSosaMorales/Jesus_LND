@@ -1,0 +1,7 @@
+
+Documento 1:Documento valido
+Documento 2:Documento valido
+Documento 3:Documento no valido el nombre tiene que aparecer una vez al menos
+Documento 4:Documento valido
+
+

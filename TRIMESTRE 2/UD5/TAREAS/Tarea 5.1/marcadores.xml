@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<paginas_web>
+
+	<paginas>
+		<nombre>Abrirllave</nombre>
+		<descripción>Tutoriales de informática</descripción>
+		<URL>https://www.abrirllave.com/</URL>
+	</paginas>
+	
+	<paginas>
+		<nombre>Wikipedia</nombre>
+		<descripción>La enciclopedia libre</descripción>
+		<URL>https://es.wikipedia.org/</URL>
+	</paginas>
+	
+	<paginas>
+		<nombre>W3C</nombre>
+		<descripción>World Wide Web Consortium</descripción>
+		<URL></URL>
+	</paginas>
+
+</paginas_web>
+
+

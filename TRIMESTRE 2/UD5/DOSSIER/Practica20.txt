@@ -1,0 +1,7 @@
+Se define un elemento pelicula con todo sus elementos
+titulo , uno o mas writer, uno o mas productor, uno o mas director, uno o mas actor y un comentario que puede aparecer o no
+los atributos de pelicula 
+tipo puede ser drama, comedy,adventure (etc) y viene por defecto drama (si no se indica)
+clasificacion que puede ser G, PG (ect) y viene por defecto PG
+review 1, 2,3,4,5 y viene por defecto el 3
+año opcional

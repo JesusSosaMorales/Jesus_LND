@@ -1,0 +1,5 @@
+
+<persona xsi:noNamespaceSchemaLocation="persona.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	  <apellido>Sosa</apellido>
+	  <nombre>Jesus</nombre>
+</persona>
