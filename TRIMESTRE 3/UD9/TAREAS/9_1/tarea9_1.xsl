@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- New document created with EditiX at Wed May 05 16:06:21 BST 2021 -->
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 	<xsl:output method="html"/>
 <xsl:param name="firstTable" select="true"></xsl:param>
